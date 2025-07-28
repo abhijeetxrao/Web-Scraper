@@ -153,7 +153,7 @@ async function searchGoogle(keyword) {
 
 
     } catch (err) {
-      console.log("⚠️ Error scraping profile:", err.message);
+      console.log("Error scraping profile:", err.message);
     }
 
 
