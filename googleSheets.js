@@ -2,7 +2,7 @@ const { google } = require("googleapis");
 const fs = require("fs");
 
 const auth = new google.auth.GoogleAuth({
-  keyFile: "./influencers-scrapping-7736411836f7.json", // replace with your downloaded JSON key filename
+  keyFile: "./influencers-scrapping-7736411836f7.json",
   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
